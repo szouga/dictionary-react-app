@@ -1,6 +1,6 @@
 import sheCodesLogo from "./shecodes_logo.png";
 import "./App.css";
-
+import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
@@ -19,7 +19,10 @@ export default function App() {
           Hello
         </a>
       </header>
-      <footer>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className="App-footer">
         <small>
           Deployed with
           <a href="https://dictionary-react-app-five.vercel.app/">Vercel</a>
