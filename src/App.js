@@ -10,6 +10,14 @@ export default function App() {
           className="App-logo img-fluid"
           alt="SheCodes Logo"
         />
+        <a
+          href="https://shecodes.io"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-primary shadow"
+        >
+          Hello
+        </a>
       </header>
       <footer>
         <small>
