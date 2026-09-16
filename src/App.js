@@ -11,6 +11,12 @@ export default function App() {
           alt="SheCodes Logo"
         />
       </header>
+      <footer>
+        <small>
+          Deployed with
+          <a href="https://dictionary-react-app-five.vercel.app/">Vercel</a>
+        </small>
+      </footer>
     </div>
   );
 }
