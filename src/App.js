@@ -20,12 +20,15 @@ export default function App() {
         </a>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="App-footer">
         <small>
           Deployed with
-          <a href="https://dictionary-react-app-five.vercel.app/">Vercel</a>
+          <a href="https://dictionary-react-app-five.vercel.app/">
+            <br />
+            Vercel
+          </a>
         </small>
       </footer>
     </div>
