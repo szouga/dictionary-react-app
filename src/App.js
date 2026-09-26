@@ -29,6 +29,15 @@ export default function App() {
             <br />
             Vercel
           </a>
+          <br />
+          Photos provided by
+          <a
+            href="https://www.pexels.com/api/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Pexels
+          </a>
         </small>
       </footer>
     </div>
